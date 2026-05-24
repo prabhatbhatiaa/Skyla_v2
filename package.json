@@ -13,7 +13,8 @@
   "type": "commonjs",
   "dependencies": {
     "discord.js": "^14.26.4",
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
