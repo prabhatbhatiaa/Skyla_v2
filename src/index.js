@@ -21,10 +21,6 @@ commandHandler(client);
 //     client.commands.set(command.data.name, command);
 // }
 
-client.once(Events.ClientReady, () => {
-    console.log(`${client.user.tag} is online.`);
-});
-
 client.on(Events.InteractionCreate, async interaction => {
     if (!interaction.isChatInputCommand()) return;
     const command = client.commands.get(interaction.commandName);

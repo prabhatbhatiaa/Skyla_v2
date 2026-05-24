@@ -1,3 +1,5 @@
+// /ping command - replies with Pong!
+
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {

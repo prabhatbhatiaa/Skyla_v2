@@ -1,3 +1,5 @@
+// Command handler to load commands from the commands directory
+
 const fs = require('fs');
 
 module.exports = (client) => {
