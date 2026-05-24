@@ -2,7 +2,7 @@
 
 require('dotenv').config();
 const { REST, Routes } = require('discord.js');
-const pingCommand = require('./commands/ping');
+const pingCommand = require('./commands/info/ping');
 
 const commands = [pingCommand.data.toJSON()];
 
